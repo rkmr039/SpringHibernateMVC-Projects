@@ -1,0 +1,15 @@
+package com.hcl.nashromdemo;
+
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineManager;
+
+public class JSNashronDemo {
+	public static void main(String[] args) {
+			
+		ScriptEngineManager scriptEngineManager = new ScriptEngineManager();
+		ScriptEngine scriptEngine = scriptEngineManager.getEngineByName("nashron");
+		
+		String name="Mahesh";
+		Integer result = null;
+	}
+}

@@ -1,0 +1,20 @@
+package com.rishab.java8streams.controller;
+
+import java.util.Date;
+
+import org.jboss.logging.Logger;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class EmployeeController {
+	
+	private static final Logger logger = Logger.getLogger(EmployeeController.class);
+
+	public EmployeeController() {
+		logger.debug(new Date() +"  : "+ this.getClass() + " EmployeeController" + "  =========================");
+	}
+	
+	@RequestMapping("/")
+	
+}

@@ -1,0 +1,11 @@
+package com.hcl.constructorrefrence;
+
+public class Employ {
+
+	private int empNo;
+	private String empName;
+	
+	public Employ(){
+		
+	}
+}

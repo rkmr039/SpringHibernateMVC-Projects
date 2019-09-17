@@ -1,0 +1,5 @@
+package com.hcl.constructorrefrence;
+
+public interface EmployInterface {
+
+}

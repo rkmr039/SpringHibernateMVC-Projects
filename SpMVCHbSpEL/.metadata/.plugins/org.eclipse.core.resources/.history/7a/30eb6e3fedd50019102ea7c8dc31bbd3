@@ -1,0 +1,6 @@
+package com.hcl.withoutle.copy;
+
+@FunctionalInterface
+public interface MyInterface {
+	public void sayMessage();
+}

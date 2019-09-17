@@ -1,0 +1,18 @@
+package com.hcl.constructorrefrence;
+
+public class EmployMain {
+	
+	public static void main(String[] args) {
+		EmployInterface employInterface = Employ::new;
+		Employ employ = employInterface.getEmploy(5, "Rishab");
+		
+		
+		System.out.println(employ.getEmpNo());
+		System.out.println(employ.getEmpName());
+		
+		EmployNameInterfaceRefrence employNameInterfaceRefrence  = Employ::new;
+		Employ employ2 = employNameInterfaceRefrence.setEmployName("Rishab");
+		System.out.println(employ2.getEmpName());
+	} 
+
+}

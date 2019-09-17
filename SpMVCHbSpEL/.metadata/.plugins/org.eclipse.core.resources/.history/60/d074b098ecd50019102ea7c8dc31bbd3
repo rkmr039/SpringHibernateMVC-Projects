@@ -1,0 +1,14 @@
+package com.hcl.le;
+
+public class WithoutLambdaExpression {
+public static void main(String[] args) {
+	MyInterface myInterface = new MyInterface() {
+		
+		@Override
+		public void sayMessage() {
+			// TODO Auto-generated method stub
+			
+		}
+	};
+}
+}

@@ -1,0 +1,6 @@
+package com.jwt.model;
+
+@FunctionalInterface
+public interface GradeInterface {
+
+}

@@ -1,0 +1,17 @@
+2019-09-12 08:55:36,973 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.websystique.springmvc:SpringMVCHibernateManyToManyCRUDExample:1.0.0 @ C:\Users\Coalesce\Downloads\SpringMVCHibernateWithSpringSecurityExample\pom.xml.
+2019-09-12 08:55:49,162 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringMVCHibernateManyToManyCRUDExample/src/main/java
+2019-09-12 08:55:49,163 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringMVCHibernateManyToManyCRUDExample/src/main/resources
+2019-09-12 08:55:49,164 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringMVCHibernateManyToManyCRUDExample/src/test/java
+2019-09-12 08:55:51,058 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 29 sec
+2019-09-12 08:55:57,624 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-12 08:55:57,647 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-09-12 08:55:57,705 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-12 08:55:57,746 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coalesce\Downloads\SpringMVCHibernateWithSpringSecurityExample\src\test\resources
+2019-09-12 08:58:36,734 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-12 08:58:36,791 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-12 08:58:36,794 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-12 08:58:36,808 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coalesce\Downloads\SpringMVCHibernateWithSpringSecurityExample\src\test\resources
+2019-09-12 08:59:27,835 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-12 08:59:31,020 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-09-12 08:59:31,022 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-12 08:59:31,074 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coalesce\Downloads\SpringMVCHibernateWithSpringSecurityExample\src\test\resources

@@ -1,0 +1,8 @@
+package com.hcl.methodrefrence;
+
+public class StaticMethodMain {
+	public static void main(String[] args) {
+		StaticMethod staticMethod (a) -> {return "welcome "+a;};
+		
+	}
+}

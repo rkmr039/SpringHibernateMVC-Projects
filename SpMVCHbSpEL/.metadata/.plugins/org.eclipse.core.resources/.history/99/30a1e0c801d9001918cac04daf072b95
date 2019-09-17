@@ -1,0 +1,14 @@
+package com.hcl.streams;
+
+public class Employ {
+
+	private int empNo;
+	private String name;
+	private float salary;
+	private char band;
+	public Employ() {
+		super();
+	}
+	
+	
+}

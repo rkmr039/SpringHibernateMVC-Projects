@@ -1,0 +1,23 @@
+package com.rishab.java8streams.dao;
+
+import java.util.List;
+
+import com.rishab.java8streams.model.Employee;
+
+public interface EmployeeDAO {
+
+	// SELECT
+	public List<Employee> getAllEmployee();
+	public List<Employee> getAllEmployeeByBand();
+	public Employee getEmployeeById(int empNo);
+	
+	// INSERT
+	public void addEmployee();
+	
+	// UPDATE
+	public Employee updateEmployee();
+	
+	// DELETE
+	public void deleteEmployee();
+	
+}

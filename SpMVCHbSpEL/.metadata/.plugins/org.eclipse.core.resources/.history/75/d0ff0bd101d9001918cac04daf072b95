@@ -1,0 +1,21 @@
+package com.hcl.streams;
+
+public class Employ {
+
+	private int empNo;
+	private String name;
+	private float salary;
+	private char band;
+	public Employ() {
+		super();
+	}
+	public Employ(int empNo, String name, float salary, char band) {
+		super();
+		this.empNo = empNo;
+		this.name = name;
+		this.salary = salary;
+		this.band = band;
+	}
+	
+	
+}

@@ -1,0 +1,8 @@
+package com.rishab.java8streams;
+
+public class Employee {
+	private int empNo;
+	private String name;
+	private float salary;
+	private char band;
+}

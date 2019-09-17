@@ -1,0 +1,6 @@
+package com.hcl.le;
+
+@FunctionalInterface
+public interface SwappingInterface {
+	public int swapTwoNumbers(int a, int b);
+}

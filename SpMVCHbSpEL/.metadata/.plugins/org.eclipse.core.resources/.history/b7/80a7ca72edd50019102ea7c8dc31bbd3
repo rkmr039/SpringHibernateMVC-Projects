@@ -1,0 +1,6 @@
+package com.hcl.le;
+
+@FunctionalInterface
+public interface MyInterface {
+	public void sayMessage();
+}

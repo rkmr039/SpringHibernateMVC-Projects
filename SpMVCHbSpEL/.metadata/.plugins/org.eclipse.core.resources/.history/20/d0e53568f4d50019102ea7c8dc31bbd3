@@ -1,0 +1,5 @@
+package com.hcl.le;
+
+public class SwappingNumbersImpl {
+	SwappingInterface swappingInterface = (a,b) -> {a=a+b;b=b+a;a=a-b;b-b-a;};
+}

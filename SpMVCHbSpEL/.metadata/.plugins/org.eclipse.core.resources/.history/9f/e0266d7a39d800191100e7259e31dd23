@@ -1,0 +1,14 @@
+package com.hcl.le;
+
+public interface MultiInterface {
+	public String sayHello(String name);
+	
+	public static int add(int a , int b){return a + b;}
+	
+	// publi cmethod of Object Class 
+	boolean equals(Object obj);
+	
+	default public int defaultMethod(int var) {
+		return var + 100;
+	}
+}

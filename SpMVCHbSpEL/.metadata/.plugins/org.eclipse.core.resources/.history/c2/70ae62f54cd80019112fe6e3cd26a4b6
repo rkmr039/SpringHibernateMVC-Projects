@@ -1,0 +1,7 @@
+package com.hcl.constructorrefrence;
+
+public class EmployNumInterfaceMain {
+
+	EmployNumInterfaceRefrence employNumInterfaceRefrence  = Employ::new;
+	Employ employ = employNumInterfaceRefrence.setEmployNum(5);
+}

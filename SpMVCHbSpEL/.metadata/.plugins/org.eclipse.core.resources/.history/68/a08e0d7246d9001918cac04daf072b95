@@ -1,0 +1,22 @@
+package com.hcl.nashromdemo;
+
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptException;
+
+public class JSNashronDemo {
+	public static void main(String[] args) {
+			
+		ScriptEngineManager scriptEngineManager = new ScriptEngineManager();
+		ScriptEngine nashron = scriptEngineManager.getEngineByName("nashron");
+		
+		String name="Mahesh";
+		Integer result = null;
+		
+		try{
+			nashron.eval("name : "+ name);
+		}catch(ScriptException e) {
+			
+		}
+	}
+}

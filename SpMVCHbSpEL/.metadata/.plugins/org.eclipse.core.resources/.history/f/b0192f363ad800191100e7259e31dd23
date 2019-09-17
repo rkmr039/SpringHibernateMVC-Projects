@@ -1,0 +1,15 @@
+package com.hcl.le;
+
+public class MultiImplMain {
+	public static void main(String[] args) {
+		MultiInterface multiInterface = (String name) -> {return "Hello : "+ name;};	
+		System.out.println(multiInterface.sayHello("Rishab"));
+		
+		System.out.println("Static method calls");
+		System.out.println(MultiInterface.add(5, 9));
+		
+		
+		
+	} 
+
+}

@@ -1,0 +1,20 @@
+2019-09-13 09:15:37,305 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.jwt.spring:SpringMVCHibernateCRUD:1.0-SNAPSHOT @ C:\Users\Coalesce\Downloads\SpringMVCHibernateCRUD\SpringMVCHibernateCRUDLog\pom.xml.
+2019-09-13 09:15:43,390 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringMVCHibernateCRUD/src/main/java
+2019-09-13 09:15:43,391 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringMVCHibernateCRUD/src/main/resources
+2019-09-13 09:15:43,392 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringMVCHibernateCRUD/src/test/java
+2019-09-13 09:15:47,102 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 29 sec
+2019-09-13 09:15:51,115 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-13 09:15:51,171 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-13 09:15:51,185 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-13 09:15:51,202 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coalesce\Downloads\SpringMVCHibernateCRUD\SpringMVCHibernateCRUDLog\src\test\resources
+2019-09-13 09:19:59,531 [Worker-21] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.jwt.spring:SpringMVCHibernateCRUD:1.0-SNAPSHOT @ C:\Users\Coalesce\Downloads\SpringMVCHibernateCRUDWithLog\SpringMVCHibernateCRUD\pom.xml.
+2019-09-13 09:20:04,542 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar
+2019-09-13 09:20:06,737 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar
+2019-09-13 09:20:09,756 [Worker-21] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringMVCHibernateCRUD/src/main/java
+2019-09-13 09:20:09,757 [Worker-21] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringMVCHibernateCRUD/src/main/resources
+2019-09-13 09:20:09,758 [Worker-21] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringMVCHibernateCRUD/src/test/java
+2019-09-13 09:20:10,651 [Worker-21] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 12 sec
+2019-09-13 09:20:11,848 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-13 09:20:12,465 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-09-13 09:20:12,489 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-13 09:20:12,505 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coalesce\Downloads\SpringMVCHibernateCRUDWithLog\SpringMVCHibernateCRUD\src\test\resources

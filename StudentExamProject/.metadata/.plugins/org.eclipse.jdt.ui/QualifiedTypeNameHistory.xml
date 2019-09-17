@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.hibernate.Criteria"/>
+<fullyQualifiedTypeName name="org.hibernate.criterion.ProjectionList"/>
+<fullyQualifiedTypeName name="org.hibernate.criterion.Projections"/>
+<fullyQualifiedTypeName name="org.hibernate.criterion.Projection"/>
+<fullyQualifiedTypeName name="com.jwt.service.StudentService"/>
+<fullyQualifiedTypeName name="org.hibernate.criterion.Criterion"/>
+<fullyQualifiedTypeName name="org.hibernate.criterion.Restrictions"/>
+<fullyQualifiedTypeName name="javax.persistence.Transient"/>
+<fullyQualifiedTypeName name="com.jwt.model.GradeInterface"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="javax.validation.constraints.NotNull"/>
+<fullyQualifiedTypeName name="javax.persistence.UniqueConstraint"/>
+<fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+<fullyQualifiedTypeName name="javax.persistence.FetchType"/>
+<fullyQualifiedTypeName name="com.jwt.dao.ExamDAOImpl"/>
+<fullyQualifiedTypeName name="javax.validation.constraints.Size"/>
+</qualifiedTypeNameHistroy>

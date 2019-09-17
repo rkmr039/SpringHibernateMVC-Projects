@@ -1,0 +1,11 @@
+package com.hcl.constructorrefrence;
+
+public class EmployMain {
+	
+	public static void main(String[] args) {
+		EmployInterface employInterface = Employ::new;
+		
+		
+	} 
+
+}

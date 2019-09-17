@@ -1,0 +1,8 @@
+package com.hcl.le;
+
+public class MultiImplMain {
+	public static void main(String[] args) {
+		MultiInterface multiInterface = (String name) -> {name += "Hello : "+ name;	return name;};		
+	} 
+
+}

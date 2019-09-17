@@ -1,0 +1,9 @@
+package com.hcl.bifunction;
+
+import java.util.function.BiFunction;
+
+public class Calculator {
+	public Integer calc(BiFunction<Integer,Integer, Integer >){
+		
+	}
+}
