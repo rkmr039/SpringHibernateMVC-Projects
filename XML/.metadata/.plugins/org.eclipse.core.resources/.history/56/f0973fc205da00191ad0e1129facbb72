@@ -1,0 +1,25 @@
+package com.hcl.parserbase;
+
+import java.util.List;
+
+import javax.xml.bind.JAXBContext;
+
+public class DbToXml {
+
+		public static void main(String[] args) {
+			List<Employee> empList = new DaoConnection().getEmployees();
+			
+			for (Employee employee : empList) {
+				jaxbObjectToXml(employee);
+			}
+			
+		}
+
+		private static void jaxbObjectToXml(Employee employee) {
+			try{
+				JAXBContext jaxbContext = JAXBContext.newInstance(Employee.class); 
+			}
+			
+		}
+	
+}

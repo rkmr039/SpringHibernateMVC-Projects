@@ -1,0 +1,15 @@
+package com.hcl.parserbase;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class DaoConnection {
+	
+	public Connection getConnection() {
+		String username = "root";
+		String password = "root";
+		String driver = "com.mysql.jdbc.Driver";
+		String url = "";
+		Connection con = DriverManager.getConnection(url);
+	}
+}

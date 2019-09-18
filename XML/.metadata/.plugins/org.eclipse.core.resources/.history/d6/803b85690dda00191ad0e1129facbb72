@@ -1,0 +1,41 @@
+package com.hcl.parserbase;
+
+import java.io.StringWriter;
+import java.sql.Date;
+import java.util.List;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
+
+public class DbToXml {
+
+		public static void main(String[] args) {
+			Employees empList = new DaoConnection().getEmployees();
+			jaxbObjectToXml(empList);			
+		}
+
+		private static void jaxbObjectToXml(Employees employees) {
+			JAXBContext jaxbContext = null;
+			StringWriter sw = null;
+			try{
+			
+     			jaxbContext = JAXBContext.newInstance(Employees.class);
+
+				Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
+				
+				jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+				
+				sw = new StringWriter();
+					
+				jaxbMarshaller.marshal(employees, sw);
+				
+			
+			} catch(JAXBException e) {
+				System.out.println(e.getMessage());
+			}
+			System.out.println(sw.toString());
+
+		}
+	
+}

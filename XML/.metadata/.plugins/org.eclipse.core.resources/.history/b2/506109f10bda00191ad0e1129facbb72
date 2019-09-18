@@ -1,0 +1,9 @@
+package com.hcl.parserbase;
+
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
+public class Employees {
+
+	private List<Employee> employees;
+}
