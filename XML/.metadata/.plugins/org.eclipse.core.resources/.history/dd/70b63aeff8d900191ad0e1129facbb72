@@ -1,0 +1,20 @@
+package com.hcl.parserbase;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class GetEmployeesFromXml {
+	public static void main(String[] args) {
+		List<Employee> employees = parseEmployeeXml();
+		System.out.println(employees);
+	}
+
+	private static List<Employee> parseEmployeeXml() {
+		// TODO Auto-generated method stub
+		List<Employee> employees = new ArrayList<Employee>();
+		Employee employee = null;
+		
+		
+		return null;
+	}
+}

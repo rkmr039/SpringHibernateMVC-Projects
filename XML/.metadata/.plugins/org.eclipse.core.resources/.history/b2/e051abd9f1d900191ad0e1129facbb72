@@ -1,0 +1,23 @@
+package com.hcl.parserbase;
+
+import java.io.File;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+
+import org.w3c.dom.Document;
+
+public class MainApp {
+	public static void main(String[] args) {
+		DocumentBuilderFactory factory = 
+				DocumentBuilderFactory.newInstance();
+		try {
+			DocumentBuilder documentBuilder =  factory.newDocumentBuilder();
+			Document document = documentBuilder.newDocument(new File("employee.xml"));  
+		} catch (ParserConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

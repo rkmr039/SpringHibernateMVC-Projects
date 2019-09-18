@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<employees xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		  xsi:noNamespaceSchemaLocation="employee.xsd">
+
+	<employee>
+		<empNo>1</empNo>
+		<empName>Raja</empName>
+		<salary>30000</salary>
+		<band>E</band>
+		<dateOfJoin>2019-08-08</dateOfJoin>
+	</employee>
+	
+	<employee>	
+		<empNo>2</empNo>
+		<empName>Amit</empName>
+		<salary>30500</salary>
+		<band>M</band>
+		<dateOfJoin>2019-08-18</dateOfJoin>
+	</employee>
+	
+	<employee>	
+		<empNo>3</empNo>
+		<empName>Raja</empName>
+		<salary>31500</salary>
+		<band>C</band>
+		<dateOfJoin>2019-06-18</dateOfJoin>
+	</employee>	
+</employees>

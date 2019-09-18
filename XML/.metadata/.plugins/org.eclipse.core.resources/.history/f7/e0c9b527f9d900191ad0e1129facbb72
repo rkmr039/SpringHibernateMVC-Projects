@@ -1,0 +1,31 @@
+package com.hcl.parserbase;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+
+public class GetEmployeesFromXml {
+	public static void main(String[] args) {
+		List<Employee> employees = parseEmployeeXml();
+		System.out.println(employees);
+	}
+
+	private static List<Employee> parseEmployeeXml() {
+		// TODO Auto-generated method stub
+		List<Employee> employees = new ArrayList<Employee>();
+		Employee employee = null;
+		Document document = null; 
+		DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
+		try {
+			DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
+		} catch (ParserConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return null;
+	}
+}

@@ -1,0 +1,15 @@
+package com.hcl.parserbase;
+
+import java.util.List;
+
+public class GetEmployeesFromXml {
+	public static void main(String[] args) {
+		List<Employee> employees = parseEmployeeXml();
+		
+	}
+
+	private static List<Employee> parseEmployeeXml() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}
