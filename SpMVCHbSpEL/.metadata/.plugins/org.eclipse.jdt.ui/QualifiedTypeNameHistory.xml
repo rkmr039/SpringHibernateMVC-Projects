@@ -9,12 +9,17 @@
 <fullyQualifiedTypeName name="com.hcl.le.MyFunctionalInterface"/>
 <fullyQualifiedTypeName name="com.hcl.le.MyInterfaceWithReturn"/>
 <fullyQualifiedTypeName name="com.hcl.withoutle.MyInterfaceWithReturn"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.awt.List"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.hcl.le.MyMaxInterface"/>
 <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
 <fullyQualifiedTypeName name="com.hcl.le.SwappingInterface"/>
 <fullyQualifiedTypeName name="com.hcl.le.DefaultInterfaceImpl"/>
 <fullyQualifiedTypeName name="com.hcl.le.DefaultInterface"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.hcl.streams.Employ"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="javax.script.ScriptEngineManager"/>
+<fullyQualifiedTypeName name="javax.script.ScriptEngine"/>
+<fullyQualifiedTypeName name="javax.script.ScriptException"/>
 </qualifiedTypeNameHistroy>
