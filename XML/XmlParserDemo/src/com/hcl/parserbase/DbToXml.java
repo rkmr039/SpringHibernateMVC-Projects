@@ -3,8 +3,6 @@ package com.hcl.parserbase;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.StringWriter;
-import java.sql.Date;
-import java.util.List;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
