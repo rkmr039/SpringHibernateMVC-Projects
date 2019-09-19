@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://rishabkumar.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://rishabkumar.com" xmlns:intf="http://rishabkumar.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://rishabkumar.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="getRishab">
+    <complexType/>
+   </element>
+   <element name="getRishabResponse">
+    <complexType>
+     <sequence>
+      <element name="getRishabReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="getRishabResponse">
+
+      <wsdl:part element="impl:getRishabResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getRishabRequest">
+
+      <wsdl:part element="impl:getRishab" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="RishabKumar">
+
+      <wsdl:operation name="getRishab">
+
+         <wsdl:input message="impl:getRishabRequest" name="getRishabRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getRishabResponse" name="getRishabResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="RishabKumarSoapBinding" type="impl:RishabKumar">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="getRishab">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getRishabRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getRishabResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="RishabKumarService">
+
+      <wsdl:port binding="impl:RishabKumarSoapBinding" name="RishabKumar">
+
+         <wsdlsoap:address location="http://localhost:8085/PersonInfo/services/RishabKumar"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

@@ -1,0 +1,8 @@
+package com.rishabkumar;
+
+public class RishabKumar {
+
+	public String getName() {
+		return "Rishab Kumar\n51823131\nrkmr039@gmail.com";
+	}
+}

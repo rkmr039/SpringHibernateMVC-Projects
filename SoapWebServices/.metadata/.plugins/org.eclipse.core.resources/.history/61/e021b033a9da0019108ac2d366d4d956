@@ -1,0 +1,8 @@
+package com.rishabkumar;
+
+public class MainApplication {
+	public static void main(String[] args) {
+		RishabKumarProxy rishabKumarProxy = new RishabKumarProxy();
+		String str = rishabKumarProxy.getRishab();
+	}
+}
