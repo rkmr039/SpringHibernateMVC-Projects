@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;filed&apos; in &apos;com.javatpoint.rest.FileUploadService.uploadFile(...)&apos; to &apos;fileExt&apos;&#x0D;&#x0A;- Original project: &apos;restfuljerseyfileupload&apos;&#x0D;&#x0A;- Original element: &apos;com.javatpoint.rest.FileUploadService.uploadFile(InputStream, FormDataContentDisposition).filed&apos;&#x0D;&#x0A;- Renamed element: &apos;filed&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;filed&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.javatpoint.rest{FileUploadService.java[FileUploadService~uploadFile~QInputStream;~QFormDataContentDisposition;@filed!721!760!728!732!QString;!0!false" name="fileExt" references="true" stamp="1568966368146" version="1.0"/>
+</session>

@@ -1,0 +1,6 @@
+package com.journaldev.jaxrs.dao;
+
+public interface EmloyeeDao {
+
+	// public List<Employee> = 
+}

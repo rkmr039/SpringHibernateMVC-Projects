@@ -1,0 +1,63 @@
+package com.journaldev.jaxrs.dao;
+
+import javax.ws.rs.core.Response;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.exception.ConstraintViolationException;
+
+import com.journaldev.jaxrs.model.Employee;
+import com.journaldev.jaxrs.model.GenericResponse;
+
+public class EmployeeDaoImpl implements EmployeeDao {
+
+	SessionFactory sf = new HibernateUtil().getSessionFactory();
+	GenericResponse response = new GenericResponse();
+	
+	@Override
+	public String addEmployee(Employee e) {
+		Transaction t =null;
+		String result="Input data Not Valid";
+	  try {
+		  Session s = sf.openSession();
+			s.save(e);
+			t = s.beginTransaction();	
+			t.commit();
+			result="Inserted";
+	    }
+	  catch(ConstraintViolationException cve) {
+		  return "Employee Already Exists";
+	  }
+	    catch (RuntimeException e1) {
+	        t.rollback();
+	        
+	        throw e1;
+	    }
+	  return result;
+		
+		
+	}
+
+	@Override
+	public Employee deleteEmployee(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Employee getEmployee(int id) {
+		Employee e = new Employee();
+		  Session s = sf.openSession();
+		e = (Employee)s.get(Employee.class, id);
+		return e;
+	}
+
+	@Override
+	public Employee[] getAllEmployees() {
+		Session s = sf.openSession();
+		
+		return null;
+	}
+
+}

@@ -1,0 +1,6 @@
+package helloservice.endpoint;
+
+public class Hello {
+	private String message = new String("Hello, ");
+	public void Hello(){};
+}

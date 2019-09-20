@@ -1,0 +1,8 @@
+package com.faultdemo;
+
+public class MainApplication {
+	public static void main(String[] args) {
+		HelloWorldProxy helloWorldProxy = new HelloWorldProxy();
+		System.out.println(helloWorldProxy.sayHello(3e1));
+	}
+}

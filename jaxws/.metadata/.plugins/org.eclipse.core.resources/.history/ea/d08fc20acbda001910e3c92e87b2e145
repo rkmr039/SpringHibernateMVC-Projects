@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//src/com/faultdemo/HelloWorld.java=UTF-8
+encoding//src/com/faultdemo/HelloWorldService.java=UTF-8
+encoding//src/com/faultdemo/HelloWorldServiceLocator.java=UTF-8
+encoding//src/com/faultdemo/MissingName.java=UTF-8

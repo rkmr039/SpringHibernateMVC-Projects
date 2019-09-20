@@ -1,0 +1,15 @@
+package com.journaldev.jaxrs.dao;
+
+
+import com.journaldev.jaxrs.model.Employee;
+
+public interface EmployeeDao {
+	
+public Employee addEmployee(Employee e);
+	
+	public Employee deleteEmployee(int id);
+	
+	public Employee getEmployee(int id);
+	
+	public Employee[] getAllEmployees();
+}

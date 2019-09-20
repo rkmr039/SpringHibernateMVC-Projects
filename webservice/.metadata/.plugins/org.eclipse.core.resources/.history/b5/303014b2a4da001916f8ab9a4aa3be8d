@@ -1,0 +1,12 @@
+package com.hcl.rishab;
+
+public class MainApplication {
+
+	public static void main(String[] args) {
+		int result = 0;
+		CalculatorProxy calculatorProxy = new CalculatorProxy();
+		try{
+			result = calculatorProxy.mul(5, 6);
+		}
+	}
+}

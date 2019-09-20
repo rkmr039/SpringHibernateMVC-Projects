@@ -1,0 +1,18 @@
+package com.javacodegeeks.examples.jaxWsAnnotations.client;
+
+import java.rmi.RemoteException;
+
+import com.javacodegeeks.examples.jaxWsAnnotations.webservice.WSAnnotationWebServiceIProxy;
+
+public class MyClass {
+	public static void main(String[] args) {
+		WSAnnotationWebServiceIProxy annotationWebServiceIProxy = new WSAnnotationWebServiceIProxy();
+		try {
+			annotationWebServiceIProxy.celsiusToFarhenheit(30);
+		} catch (RemoteException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+}

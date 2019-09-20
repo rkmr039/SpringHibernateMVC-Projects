@@ -1,0 +1,11 @@
+package com.journaldev.jaxrs.dao;
+
+import org.hibernate.SessionFactory;
+
+public class CrudHibernate {
+
+	public SessionFactory getSessionFactory() {
+		
+	}
+	
+}

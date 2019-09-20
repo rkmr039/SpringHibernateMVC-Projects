@@ -1,0 +1,19 @@
+package com.hcl.rishab;
+
+import java.rmi.RemoteException;
+
+public class MainApplication {
+
+	public static void main(String[] args) {
+		int result = 0;
+		CalculatorProxy calculatorProxy = new CalculatorProxy();
+		try{
+			result = calculatorProxy.mul(5, 6);
+			System.out.println("Mul Result : " + result);
+			result = calculatorProxy.add(5, 6);
+			System.out.println("Add Result : " + result);
+		}catch(RemoteException e) {
+			e.printStackTrace();
+		}
+	}
+}

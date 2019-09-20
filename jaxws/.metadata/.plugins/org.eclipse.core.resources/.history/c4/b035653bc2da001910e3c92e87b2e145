@@ -1,0 +1,11 @@
+package com.javacodegeeks.examples.jaxWsAnnotations.client;
+
+import com.javacodegeeks.examples.jaxWsAnnotations.webservice.WSAnnotationWebServiceIProxy;
+
+public class MyClass {
+	public static void main(String[] args) {
+		WSAnnotationWebServiceIProxy annotationWebServiceIProxy = new WSAnnotationWebServiceIProxy();
+		annotationWebServiceIProxy.celsiusToFarhenheit(30);
+	}
+	
+}

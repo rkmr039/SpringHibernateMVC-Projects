@@ -1,0 +1,6 @@
+package com.journaldev.jaxrs.dao;
+
+public class CrudHibernate {
+
+	
+}

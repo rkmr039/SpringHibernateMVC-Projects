@@ -1,0 +1,9 @@
+package helloservice.endpoint;
+
+public class MainApplication {
+public static void main(String[] args) {
+	HelloProxy helloProxy = new HelloProxy();
+	System.out.println(helloProxy.sayHello("Rishab"));
+	
+}
+}
