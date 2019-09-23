@@ -1,0 +1,12 @@
+package hcl.JsonDemo;
+
+import java.util.Map;
+
+import org.json.simple.JSONObject;
+
+public class JsonMapExample {
+	public static void main(String[] args) {
+		JSONObject object = new JSONObject();
+		Map<String,String> map = new HashMap();
+	}
+}

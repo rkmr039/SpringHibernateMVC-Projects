@@ -1,0 +1,25 @@
+package hcl.employeejson;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
+public class JsonToEmployee {
+
+	public static void main(String[] args) {
+		FileReader fr = null;
+		BufferedReader bf = null;
+		try {
+			fr = new FileReader("C:\\fullstackjava\\employee.json");
+			bf = new BufferedReader(fr);
+			String line = "";
+			while((line = bf.readLine()) != null) {
+				
+			}
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

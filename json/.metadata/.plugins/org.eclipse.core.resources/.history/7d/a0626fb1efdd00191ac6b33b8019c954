@@ -1,0 +1,5 @@
+package hcl.employeejson.service;
+
+public interface EmployService {
+
+}

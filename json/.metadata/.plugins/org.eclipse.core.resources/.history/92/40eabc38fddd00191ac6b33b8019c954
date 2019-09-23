@@ -1,0 +1,48 @@
+package hcl.employeejson.service;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+
+import hcl.employeejson.dao.EmployeeDaoImpl;
+import hcl.employeejson.model.Employee;
+
+@Path("/employee")
+@Produces(MediaType.APPLICATION_JSON)
+public class EmployeeServiceImpl implements EmployeeService {
+
+	EmployeeDaoImpl employeeDaoImpl = new EmployeeDaoImpl();
+
+	
+	public EmployeeServiceImpl() {
+		System.out.println("EmployeeServiceImpl()");
+	}
+	
+	@Override
+	@GET
+	@Path("/getAll")
+	public Response getEmployees() {
+		List<Employee> employees = employeeDaoImpl.getEmployees();
+		String result = "";
+		for (Employee employee : employees) {
+			
+			
+			result += employee.getEmpName();
+		}
+		
+		return Response.status(200).entity(result).build();
+	}
+
+	@Override
+	public void addEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

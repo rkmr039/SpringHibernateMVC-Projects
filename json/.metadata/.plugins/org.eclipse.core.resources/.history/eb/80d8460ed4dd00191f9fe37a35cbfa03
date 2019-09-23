@@ -1,0 +1,40 @@
+package hcl.employeejson;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+
+public class EmployeeToJson {
+	public static void main(String[] args) {
+		List<Employee> employees = new ArrayList<Employee>();
+		employees = new EmployeeDao().getEmployees();
+		JSONObject jsonObject = new JSONObject();
+		JSONArray array=null;
+		JSONObject obj = new JSONObject();	
+		for (Employee employee : employees) {
+			array = new JSONArray();
+			JSONObject obj2 = new JSONObject();	
+			JSONObject obj3 = new JSONObject();	
+			
+			obj3.put("empNo ",employee.getEmpNo());
+			obj3.put("empName",employee.getEmpName());
+			obj3.put("band",String.valueOf(employee.getBand()));
+			obj3.put("dateOfJoin",String.valueOf(employee.getDateOfJoin()));
+			// obj.put("employee",obj2);
+			array.add(obj3);
+			
+		//	System.out.println(obj2);
+			
+		}obj.put("employee",array);
+		/*JSONObject j = new JSONObject();
+		j.put("employee",array);
+		
+*/		// obj.put("", array);
+		
+		jsonObject.put("employees",obj);
+		System.out.println(jsonObject);
+		
+	}
+}

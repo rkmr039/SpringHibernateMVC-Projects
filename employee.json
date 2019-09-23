@@ -1,0 +1,34 @@
+{
+  "employees": {
+    "employee": [
+      {
+        "empName": "Amitabh",
+        "dateOfJoin": "2009-01-01",
+        "empNo": "31",
+        "band": "E",
+		"salary": "5000.0"
+      },
+      {
+        "empName": "Sarukh",
+        "dateOfJoin": "2019-11-01",
+        "empNo": "32",
+        "band": "M",
+		"salary": "5000.0"
+      },
+      {
+        "empName": "Aamir",
+        "dateOfJoin": "2017-06-06",
+        "empNo": "33",
+        "band": "C",
+		"salary": "5000.0"
+      },
+      {
+        "empName": "Anup",
+        "dateOfJoin": "2015-12-11",
+        "empNo": "34",
+        "band": "E",
+		"salary": "5000.0"
+      }
+    ]
+  }
+}

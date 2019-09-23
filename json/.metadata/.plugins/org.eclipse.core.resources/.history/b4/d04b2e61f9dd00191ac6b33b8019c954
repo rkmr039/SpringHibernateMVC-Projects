@@ -1,0 +1,12 @@
+package hcl.employeejson.service;
+
+import java.util.List;
+
+import hcl.employeejson.model.Employee;
+
+public interface EmployeeService {
+	
+	public String getEmployees();
+	
+	public void addEmployee(Employee employee);
+}

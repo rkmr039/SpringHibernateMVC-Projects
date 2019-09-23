@@ -1,0 +1,12 @@
+package hcl.JsonDemo;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+
+public class JsonMultiArray {
+	public static void main(String[] args) {
+		JSONArray array = new JSONArray();
+		JSONObject object = new JSONObject();
+		
+	}
+}

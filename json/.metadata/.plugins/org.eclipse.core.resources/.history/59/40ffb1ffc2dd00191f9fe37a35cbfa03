@@ -1,0 +1,7 @@
+package hcl.EmployeeJson;
+
+public class Employee {
+		private int empNo;
+	       private String empName;
+	       private double salary;
+}

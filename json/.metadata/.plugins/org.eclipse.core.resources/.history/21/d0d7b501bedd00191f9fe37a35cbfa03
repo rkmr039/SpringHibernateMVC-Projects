@@ -1,0 +1,7 @@
+package hcl.JsonDemo;
+
+public class JsonMultiArray {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,21 @@
+package hcl.employeejson.dao;
+
+import java.util.List;
+
+import hcl.employeejson.model.Employee;
+
+public class EmployDaoImpl implements EmployeeDao{
+
+	@Override
+	public List<Employee> getEmployees() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void addEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

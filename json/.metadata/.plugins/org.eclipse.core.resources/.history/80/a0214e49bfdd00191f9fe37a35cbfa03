@@ -1,0 +1,16 @@
+package hcl.EmployeeJson;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class DaoConnection {
+	public Connection getConnection() {
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			Connection con = DriverManager.getConnection("mysql:jdbc://localhost:3306/java8streams","root","root"); 
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

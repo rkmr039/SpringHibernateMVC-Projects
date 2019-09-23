@@ -1,0 +1,16 @@
+package hcl.JsonDemo;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.JSONValue;
+
+public class JsonArrayExample {
+	public static void main(String[] args) {
+		JSONArray array = new JSONArray();
+		array.add("R");
+		array.add("22");
+		array.add("30000");
+		
+		JSONObject jsonObject = JSONValue.toJSONString(array);
+	}
+}

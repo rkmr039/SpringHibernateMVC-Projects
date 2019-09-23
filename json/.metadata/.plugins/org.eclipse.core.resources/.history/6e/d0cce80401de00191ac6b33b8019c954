@@ -1,0 +1,8 @@
+package hcl.employeejson.service;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		
+	}
+}

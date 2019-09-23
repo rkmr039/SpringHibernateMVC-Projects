@@ -1,0 +1,9 @@
+package hcl.EmployeeJson;
+
+import java.sql.Connection;
+
+public class DaoConnection {
+	public Connection getConnection() {
+		
+	}
+}

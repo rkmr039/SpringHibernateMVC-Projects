@@ -1,0 +1,30 @@
+package hcl.EmployeeJson;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+public class EmployeeDao {
+	
+	public List<Employee> getEmployees() {
+		List<Employee> employees = new ArrayList<Employee>();
+		Connection con = DaoConnection.getConnection();
+		try {
+			PreparedStatement stmt = con.prepareStatement("select * from employee");
+			ResultSet rs = stmt.executeQuery();
+			while(rs.next()) {
+				Employee e = new Employee();
+				
+				
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+}

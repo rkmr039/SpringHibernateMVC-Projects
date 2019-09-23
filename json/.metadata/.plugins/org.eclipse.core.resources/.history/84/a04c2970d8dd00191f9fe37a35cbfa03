@@ -1,0 +1,69 @@
+package hcl.employeejson;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.sql.Date;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.JSONValue;
+
+public class JsonToEmployee {
+
+	public static void main(String[] args) {
+		FileReader fr = null;
+		BufferedReader bf = null;
+		try {
+			fr = new FileReader("C:\\fullstackjava\\employee.json");
+			bf = new BufferedReader(fr);
+			String line = "";
+			String jsonText = "";
+			
+			while((line = bf.readLine()) != null) {
+				// System.out.println(line);
+				jsonText += line;
+				// new EmployeeDao().addEmployee(employee);
+			
+			}
+			Object obj = JSONValue.parse(jsonText);
+			JSONObject jsonObject = (JSONObject) obj;
+		
+			JSONObject empsObject = (JSONObject) jsonObject.get("employees");
+			// System.out.println(empsObject);
+			JSONArray empsArr = (JSONArray) empsObject.get("employee");
+			for (Object object : empsArr) {
+				// System.out.println(object.toString());
+				JSONObject employee = (JSONObject) obj;
+				System.out.println(employee.toString());
+				// String empName = (String) jsonObject.get("empName");
+				//System.out.println(empName);
+			}
+			
+			
+			
+			/*	int empNo = (Integer) jsonObject.get("empNo");
+				double salary  = (Double) jsonObject.get("salary");
+				char band = ((String)jsonObject.get("band")).charAt(0);
+				Date dateOfJoin = (Date)jsonObject.get("dateOfJoin");
+				Employee employee = new Employee();
+				employee.setEmpNo(empNo);
+				employee.setEmpName(empName);
+				employee.setSalary(salary);
+				employee.setBand(band);
+				employee.setDateOfJoin(dateOfJoin);
+				System.out.println(employee.toString());*/
+			
+			
+			
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}
