@@ -3345,3 +3345,11 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag nam
 2019-09-23 18:27:15,847 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\fullstackjava\json\EmployeeJsonWS\src\test\resources
 2019-09-23 18:37:04,688 [Framework stop] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@60a894ba{HTTP/1.1}{0.0.0.0:0}
 2019-09-23 18:37:05,200 [Framework stop] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@358967b9{/wse,null,UNAVAILABLE}
+2019-09-24 09:16:59,623 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-24 09:16:59,655 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\fullstackjava\json\EmployeeJsonWS\src\main\resources
+2019-09-24 09:16:59,658 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-24 09:16:59,673 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\fullstackjava\json\EmployeeJsonWS\src\test\resources
+2019-09-24 09:17:10,792 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-24 09:17:10,818 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\fullstackjava\json\EmployeeJsonWsClient\src\main\resources
+2019-09-24 09:17:10,820 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-09-24 09:17:10,837 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\fullstackjava\json\EmployeeJsonWsClient\src\test\resources

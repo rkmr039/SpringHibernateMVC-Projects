@@ -241,12 +241,6 @@
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_gli7UN31Eem_Yo2Zquw8-g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="hibernate.cfg.xml" iconURI="platform:/plugin/org.jboss.tools.hibernate.xml.ui/images/xstudio/editors/hibernate_file.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.jboss.tools.hibernate.ui.xml.editor.HibConfig3CompoundEditor&quot; name=&quot;hibernate.cfg.xml&quot; partName=&quot;hibernate.cfg.xml&quot; title=&quot;hibernate.cfg.xml&quot; tooltip=&quot;RestEasy-Example/resources/hibernate.cfg.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory&quot; path=&quot;/RestEasy-Example/resources/hibernate.cfg.xml&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.jboss.tools.hibernate.ui.xml.editor.HibConfig3CompoundEditor</tags>
-          <tags>removeOnHide</tags>
-        </children>
         <children xsi:type="basic:Part" xmi:id="_7to-cN3_Eem_Yo2Zquw8-g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="RestEasyTestClient.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;RestEasyTestClient.java&quot; partName=&quot;RestEasyTestClient.java&quot; title=&quot;RestEasyTestClient.java&quot; tooltip=&quot;RestEasy-Example/src/com/rishab/jaxrs/resteasy/client/RestEasyTestClient.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/RestEasy-Example/src/com/rishab/jaxrs/resteasy/client/RestEasyTestClient.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
@@ -457,7 +451,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_v2Bfzt3fEemz99YAC90Drw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_Zpw5IN3uEem_Yo2Zquw8-g" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_v2FIfd3fEemz99YAC90Drw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_O64kF958EemytrRwlxyriA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_v2FIfd3fEemz99YAC90Drw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_v2Bf293fEemz99YAC90Drw" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -487,7 +481,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_v2CE793fEemz99YAC90Drw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_Zp0jgN3uEem_Yo2Zquw8-g" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_v2FIId3fEemz99YAC90Drw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_O7BuCN58EemytrRwlxyriA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_v2FIId3fEemz99YAC90Drw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_v2CE-d3fEemz99YAC90Drw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
