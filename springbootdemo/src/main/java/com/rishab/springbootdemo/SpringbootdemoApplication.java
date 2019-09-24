@@ -22,6 +22,5 @@ public class SpringbootdemoApplication {
 	@RequestMapping(value="/")
 	public String getName() {
 		return this.propertyName;
-	}
-
+	} 
 }
