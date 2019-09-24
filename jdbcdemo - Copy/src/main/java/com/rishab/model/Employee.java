@@ -16,7 +16,7 @@ public class Employee {
 	private int empno;
 	
 	private String empname;
-	private double salary;
+	private float salary;
 	private char band;
 	private Date dateofjoin;
 
@@ -40,7 +40,7 @@ public class Employee {
 		return salary;
 	}
 
-	public void setSalary(double salary) {
+	public void setSalary(float salary) {
 		this.salary = salary;
 	}
 
