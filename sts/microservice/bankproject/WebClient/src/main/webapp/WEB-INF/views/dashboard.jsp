@@ -7,9 +7,16 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Welcome </h1><h1>${username}</h1>
+	<h1>Welcome ${username}</h1>
 	
 	<a href="/getAllAccountsByUserid/${userid}" >Display All Accounts</a>
 	
+	
+	<h1>Find By Account Number</h1>
+	<form action="findByAccountnum">
+		Account Number
+		<input type="text" name="accountnum"/><br/><br/>
+		<input type="submit" value="search"/>
+	</form>
 </body>
 </html>

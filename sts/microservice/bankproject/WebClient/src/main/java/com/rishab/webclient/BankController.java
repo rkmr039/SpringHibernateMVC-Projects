@@ -1,5 +1,6 @@
 package com.rishab.webclient;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class BankController {
@@ -52,15 +54,12 @@ public class BankController {
 		return "addAccount";
 	}
 	
-	@GetMapping(value="/findAccountPage")
-	public String findAccountPage() {
-		return "searchAccount";
-	}
-	
-	
-	@RequestMapping("/findByAccountnum/{accountnum}")
-	public String accountDetails(@PathVariable("accountnum") int accountnum, Model model) {
-		model.addAttribute("account",accountRepository.findByAccountnum(accountnum));
+	@RequestMapping("/findByAccountnum")
+	public String accountDetails(@RequestParam("accountnum") int accountnum, Model model) {
+		List<Account> accList = new ArrayList<Account>();
+		accList.add(accountRepository.findByAccountnum(accountnum));
+		model.addAttribute("accountList",accList);
+		
 		return "accountDetails";
 	}
 	

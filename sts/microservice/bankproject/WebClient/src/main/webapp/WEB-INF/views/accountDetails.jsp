@@ -41,46 +41,22 @@
               | <a href="accountList">Accounts</a> ]</div> --%>
 		</div>
 		<h1>Account Details</h1>
-		<c:forEach var="account" items="${accountList}">
-		<div class="row">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-sm-3">
-						Account Number:
-					</div>
-					<div class="col-sm-9">
-						${account.accountnum}
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-3">
-						Type:
-					</div>
-					<div class="col-sm-9">
-						${account.accounttype}
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-3">
-						Amount:
-					</div>
-					<div class="col-sm-9">
-						${account.amount}
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-3">
-						UserID:
-					</div>
-					<div class="col-sm-9">
-						${account.userid}
-					</div>
-				</div>
-			
-			</div>
-								
-		</div>
-</c:forEach>	
+		<table class="table table-striped mb-0" border="1" >
+			<tr class="table-primary">
+				<th>Account Number</th>
+				<th>Type</th>
+				<th>Balance</th>
+				<th>UserID</th>
+			</tr>
+			<c:forEach var="account" items="${accountList}">
+				<tr>
+					<td>${account.accountnum}</td>
+					<td>${account.accounttype}</td>
+					<td>${account.amount}</td>
+					<td>${account.userid}</td>
+				</tr>
+			</c:forEach>
+		</table>
 	</div>
 
 </body>
