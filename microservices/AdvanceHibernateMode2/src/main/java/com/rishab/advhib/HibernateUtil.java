@@ -12,10 +12,4 @@ public class HibernateUtil {
 		SessionFactory sf = cfg.buildSessionFactory();
 		return sf;
 	}
-	public static SessionFactory getNamedQuerySF() {
-		Configuration cfg = new AnnotationConfiguration();
-		cfg.configure("NamedQuery.hbm.xml");
-		SessionFactory sf = cfg.buildSessionFactory();
-		return sf;
-	}
 }
