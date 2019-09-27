@@ -1,12 +1,16 @@
 package com.rishab.advhib;
 
 import javax.persistence.Table;
+
+import org.hibernate.annotations.NamedQueries;
+import org.hibernate.annotations.NamedQuery;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity 
 @Table (name="Employee")
+@NamedQueries({@NamedQuery(name="HQL_GET_ALL_EMPLOYEE",query = "from Employee")})
 public class Employee {
 	
 	

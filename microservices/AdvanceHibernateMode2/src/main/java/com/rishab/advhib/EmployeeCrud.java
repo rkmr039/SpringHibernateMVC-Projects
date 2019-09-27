@@ -112,5 +112,11 @@ public class EmployeeCrud {
 		for (String string : result) {
 			System.out.println(string);
 		}
+		
+		q = session.getNamedQuery("HQL_GET_ALL_EMPLOYEE");
+		empList = q.list();
+		for (Employee employee : empList) {
+			System.out.println(employee.toString());
+		}
 	}
 }
