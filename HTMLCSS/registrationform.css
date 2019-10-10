@@ -1,0 +1,14 @@
+*{
+	margin:0;
+}
+html {
+	position:relative;
+	height:100%;
+}
+
+#registration-form {
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
