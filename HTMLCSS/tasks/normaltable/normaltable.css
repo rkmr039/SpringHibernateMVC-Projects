@@ -1,0 +1,24 @@
+*{
+	margin:0;
+}
+html {
+	position:relative;
+	height:100%;
+}
+
+#container {
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border: 2px solid black;
+	padding:1px;
+}
+table{
+	border-collapse: collapse;
+	
+}
+table, td, th {
+	 border: 2px solid white;
+}
+tr:nth-child(even) {background-color: #ADFF2F;}
