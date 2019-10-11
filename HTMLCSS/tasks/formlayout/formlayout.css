@@ -1,0 +1,37 @@
+*{
+	margin:0;
+}
+html {
+	position:relative;
+	height:100%;
+}
+
+#registration-form {
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border:1px solid black;
+	padding:10px;
+}
+.formDivs{
+	background-color:#00ffcc;
+	border:0.5px solid black; 
+	width:250px;
+	height:25px;
+	text-align:center; 
+	line-height:25px;
+}
+input {
+	
+	border:0.5px solid black; 
+	width:250px;
+	height:25px;
+}
+
+input[type="button"] {
+	background-color:#00ffcc;
+}
+input[type="button"]:hover {
+	cursor:pointer;
+}

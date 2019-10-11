@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Task | Form Layout </title>
+		<link rel="stylesheet" href="formlayout.css" type="text/css" />
+		<script src="formlayout.js" ></script>
+	</head>
+	<body>
+		<div id="registration-form">
+			<form>
+					<table>
+						<tr>
+							<div id="formHeader" class="formDivs">
+								<h5>SignUp</h5>
+							</div>
+						</tr>
+						<tr>
+							<td><input type="text" name="username" id="username" required placeholder="Username"></td>
+						</tr>
+						
+						<tr>
+							<td><input type="email" name="email" id="email" required placeholder="Email"></td>
+						</tr>		
+						<tr>
+							<td><input type="password" name="password" id="password" required placeholder="Password" ></td>
+						</tr>
+						<tr>
+							<td><input type="text" name="firstName" id="firstName" required placeholder="First Name"></td>
+						</tr>
+						<tr>
+							<td><input type="text" name="lastName" id="lastName" required placeholder="Last Name"></td>
+						</tr>
+						<tr>
+							<td><div id="formButton" class="formDivs">
+								<input type="button" value="Register" name="register" onClick="displayData()"/>
+							</div></td>
+						</tr>
+					</table>
+			</form>
+		</div>
+		<span id="displayArea"></span>
+	</body>
+</html>
