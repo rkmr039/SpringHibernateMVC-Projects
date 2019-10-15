@@ -1,108 +1,61 @@
 * {
- margin:0;
+ 	margin:0;
  }
+ 
+#headerDiv{grid-area:header;}
+#sectionDiv{grid-area: section;}
+#content{grid-area: content}
+#footerDiv{grid-area: footer}
 
+.container{
+	display:grid;
+	padding:10px;
+	text-align: justify;
+ 	grid-gap: 10px;
+}
+header{
+	background-color:#00bfff; 
+}
+header img{	
+	float:left;
+	height:80px;
+	width:80px;
+}
+footer{
+	background-color:	#ff9900	;
+ 	padding:10px;
+}
+section{
+	background-color:	#ff0000	;
+ 	padding:10px;
+}
+#content{
+	background-color:	#009900	;
+ 	padding:10px;
+}
 @media screen and (max-width: 1492px) {
-  body {
-  }
-  .container{
-		margin:10px;
-		display:grid;
-		grdi-template-rows:3fr 7fr;
-	}	
-
-	header{
-		background-color:	#00bfff	;
-		height:100px;
-	}
-	#contents{
-		margin-top:20px;
-		display:grid;
-		grid-template-columns:3fr 4fr 3fr;
-	}
-	#nav{
-		background-color:	#009900	;
-		height:550px;
-		float:left;
-		
-	}
-
-	#content{
-		background-color:	#ff0000	;
-		height:550px;
-		float:left;
-		margin-left:20px;
-		margin-right:20px;
-	}
-	footer{
-		
-		background-color:	#ff9900	;
-		height:550px;
-	}
+ .container{
+ 	grid-template-areas: 
+ 	'header header header header'
+ 	'section content content footer';
+ }
 }
 
 @media screen and (max-width: 755px) {
-   body {
-  }
   .container{
-		margin:10px;
-		display:grid;
-		grdi-template-rows:3fr 7fr;
-	}	
-
-	header{
-		background-color:	#00bfff	;
-		height:100px;
-	}
-	#contents{
-		margin-top:20px;
-		display:grid;
-	}
-	#nav{
-		height:150px;
-		grid-column:1 / span 3;
-	}
-	#content{
-		margin-top:20px;
-		margin-left:0;
-		grid-column:1 / span 2 ;
-	}
-	footer{
-		margin-top:20px;
-	}
+ 	grid-template-areas: 
+ 	'header header header header'
+ 	'section section section section'
+ 	'content content footer footer';
+ }
 }
 
 @media screen and (max-width: 360px) {
-   body {
-  }
   .container{
-		margin:10px;
-		display:grid;
-		grdi-template-rows:3fr 7fr;
-	}	
-
-	header{
-		background-color:	#00bfff	;
-		height:100px;
-	}
-	#contents{
-		margin-top:20px;
-		display:grid;
-	}
-	#nav{
-		height:150px;
-		grid-column:1 / span 3;
-	}
-	#content{
-		margin-top:20px;
-		margin-left:0;
-		margin-right:0;
-		grid-column:1 / span 3 ;
-	}
-	footer{
-margin-top:20px;
-		margin-left:0;
-		margin-right:0;
-		grid-column:1 / span 3 ;
-	}
+ 	grid-template-areas: 
+ 	'header header header header'
+ 	'section section section section'
+ 	'content content content content'
+ 	'footer footer footer footer';
+ }
 }

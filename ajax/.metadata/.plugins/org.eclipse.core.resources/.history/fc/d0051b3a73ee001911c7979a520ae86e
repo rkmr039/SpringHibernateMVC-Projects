@@ -1,0 +1,40 @@
+var json;
+
+function loadJsonData() {
+	var xhttp;
+	if(window.XMLHttpRequest) {
+		xhttp = new XMLHttpRequest();
+	} else {
+		xhttp = new ActiveXObject("Microsoft.XMLHTTP");
+	}
+	// alert(xhttp);
+	xhttp.onreadystatechange = function() {
+		if(this.readyState == 4 && this.status == 200) {
+			var result = JSON.parse(this.responseText);
+			json = result;
+			for (var i = 0; i < result.length; i++) {
+				var t = document.getElementById("dataTable");
+                var r = document.createElement("TR");
+                r.innerHTML = 
+                t.tBodies[0].appendChild(r);
+			}
+
+			// document.getElementById('displayArea').innerHTML = this.responseText;
+		}
+	}
+
+	xhttp.open("GET","http://localhost:8000/data.json",true);
+	xhttp.send();
+}
+function deleteData(n) {
+
+	// alert(n-1 + " "+ typeof json);
+	// alert(json + " " + json[0]);
+	// delete json[n-1].name;
+	// delete json[n-1].email;
+	// json[n-1].delete(json[n-1].name);
+	delete json[n-1];
+	loadJsonData();
+
+
+}

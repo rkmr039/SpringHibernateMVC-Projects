@@ -9,12 +9,10 @@
 	<body>
 		<div id="registration-form">
 			<form>
-					<table>
-						<tr>
-							<div id="formHeader" class="formDivs">
-								<h5>SignUp</h5>
-							</div>
-						</tr>
+					<div id="formHeader" >
+						<h5>SignUp</h5>
+					</div>
+					<table>	
 						<tr>
 							<td><input type="text" name="username" id="username" required placeholder="Username"></td>
 						</tr>
@@ -32,8 +30,8 @@
 							<td><input type="text" name="lastName" id="lastName" required placeholder="Last Name"></td>
 						</tr>
 						<tr>
-							<td><div id="formButton" class="formDivs">
-								<input type="button" value="Register" name="register" onClick="displayData()"/>
+							<td><div  class="formDivs">
+								<input type="button" id="formButton" value="Register" name="register" onClick="displayData()"/>
 							</div></td>
 						</tr>
 					</table>

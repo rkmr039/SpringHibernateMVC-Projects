@@ -619,3 +619,5 @@
 2019-10-09 10:00:41,192 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2019-10-09 10:00:41,200 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-10-09 10:00:41,208 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coalesce\Downloads\springbootmysql\springbootmysql\src\test\resources
+2019-10-11 15:52:32,936 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.codehaus.mojo:sonar-maven-plugin:pom:3.6.0.1398 has been relocated to org.sonarsource.scanner.maven:sonar-maven-plugin:pom:3.6.0.1398
+2019-10-14 14:53:07,605 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.codehaus.mojo:sonar-maven-plugin:pom:3.6.0.1398 has been relocated to org.sonarsource.scanner.maven:sonar-maven-plugin:pom:3.6.0.1398

@@ -1,9 +1,0 @@
-package hcl.JsonDemo;
-
-import org.json.simple.JSONArray;
-
-public class JsonArrayExample {
-	public static void main(String[] args) {
-		JSONArray array = new JSONArray();
-	}
-}

@@ -1,5 +1,0 @@
-package hcl.employeejson.dao;
-
-public class EmployDaoImpl {
-
-}

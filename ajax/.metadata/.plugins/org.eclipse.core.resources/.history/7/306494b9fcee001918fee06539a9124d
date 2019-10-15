@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Task | AJAX Excercise</title>
+	<script type="text/javascript" src="ajaxExample.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body onload="loadJsonData()">
+	<div id="displayArea">
+		<table class="table table-stripped" id="dataTable" >
+			<thead>
+				<tr>
+					<th scope="col">#</th>
+					<th scope="col">Name</th>
+					<th scope="col">Email</th>
+					<th scope="col">Action</th>
+				</tr>
+			</thead>
+			<tbody id="task-row">    
+            </tbody>	
+		</table>
+	</div>
+	<span id="displayArea"></span>
+</body>
+</html>

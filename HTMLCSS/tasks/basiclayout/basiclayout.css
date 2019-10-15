@@ -1,51 +1,89 @@
-* {
- margin:0;
- }
-.container{
-	border:5px solid black;
-	margin:10px;
-	text-align:center;
-	display:grid;
-	grid-template-rows:2fr 8fr;
-}	
-header {
-	background-color:#ff4d4d;
-	height:100px;
-	line-height:100px;
-	text-align:left;
-	left:30px;
+
+.header { grid-area: header; }
+.menu { grid-area: menu; }
+.contents { grid-area: main; }
+.footer { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #000;
+  padding: 10px;
 }
-#logo img{
-	height:100px;;
-	width:100px;
+
+.grid-container > div {
+ background-color: white;
+  text-align: center;
+  font-size: 30px;
 }
-footer {
-	background-color:#ff4d4d;
-	border-top:5px solid black;
-	padding: 18px 0;
-}
-#contents{
-	display:grid;
-	grid-template-columns:3fr 7fr;
-}
-#contents-footer{
-	display:grid;
-	grid-template-rows:8fr 2fr;
-	
-}
-.col {
+/*
+grid-column-start:startColumnNumber;
+grid-column-end:endColumnNumber;
+*/
+
+
+.header img{
 	float:left;
-	background-color:#80ff00;
+	height:80px;
+	width:80px;
 }
-#nav {
-	border-right:5px solid black;
-	border-top:5px solid black;
-	box-sizing:border-box;
-	line-height:2000%;
+.header{
+
 }
-#content {
-	border-top:5px solid black;
-	background-color:#00bfff;
-	box-sizing:border-box;
-	line-height:1800%;
+.sidenav {
+  height: 100%;
+  background-color: white;
+}
+
+.sidenav a {
+  padding: 8px 18px 8px 18px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+video{
+	width:100%;
+	float:left;
+	margin-right:15px;
+}
+#videoDiv{
+
+	margin:30px;
+	height:60%;
+	width:60%;
+}
+
+.contents{
+	/*display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto;*/
+}
+.contents p{
+	padding-right:15px;
+	padding-left:15px;
+	text-align: justify;
+}
+.footer{
+	display:grid;
+	grid-template-columns: auto auto;
+}
+#copyright p{
+
+}
+#socialmedia{
+	text-align: right;
+	padding-top:10px;
+	padding-right:10px;
+}
+#socialmedia img{
+	width:15%;
 }

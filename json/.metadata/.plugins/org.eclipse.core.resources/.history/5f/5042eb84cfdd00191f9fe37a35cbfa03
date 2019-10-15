@@ -1,7 +1,0 @@
-package hcl.employeejson;
-
-public class HibernateUtil {
-	public static getSessionFactory() {
-		
-	}
-}
