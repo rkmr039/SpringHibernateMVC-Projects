@@ -1,5 +1,7 @@
 package com.rishab.advhib;
 
+import java.util.List;
+
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -9,9 +11,41 @@ public class NamedQuery {
 	public static void main(String[] args) {
 		SessionFactory sf = HibernateUtil.getConnection();
 		Session s = sf.openSession();
-		Query q = s.getNamedQuery("HQL_GET_EMPLOYEE_BY_ID");
+		List<Employee> empList;
+		Query q;
+		
+		// Named Query from POJO CLASS
+		// q = s.getNamedQuery("HQL_GET_ALL_EMPLOYEE");
+		
+		
+		// Native Named Query 
+		q = s.createSQLQuery("select * from Employee").addEntity(Employee.class);
+		empList = q.list();
+		System.out.println("===============List Of Employee================");
+		System.out.println("Simple Native Query ");
+		for (Employee employee : empList) {
+			System.out.println(employee);
+			System.out.println("==========================================");
+		}
+		
+		
+		System.out.println("===============List Of Employee================");
+		System.out.println("Native Named Query From POJO Classes");
+		q = s.getNamedQuery("SQL_GET_ALL_EMPLOYEE");
+		List<Object[]> employeeObjArray = q.list();
+		for(Object[] row : employeeObjArray){
+			for(Object obj : row){
+				System.out.print(obj + " : ");
+			}
+			System.out.println("\n");
+		}
+		
+		// Named Query from namedQuery.hbm.xml
+		q = s.getNamedQuery("HQL_GET_EMPLOYEE_BY_ID");
 		q.setInteger("empno", 2);
 		Employee e = (Employee)q.uniqueResult();
 		System.out.println(e.toString());
+		
+		
 	}
 }

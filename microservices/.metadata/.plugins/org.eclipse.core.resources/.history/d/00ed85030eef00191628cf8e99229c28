@@ -1,0 +1,44 @@
+package com.rishab.advhib;
+
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+public class NamedQuery {
+
+	public static void main(String[] args) {
+		SessionFactory sf = HibernateUtil.getConnection();
+		Session s = sf.openSession();
+		List<Employee> empList;
+		Query q;
+		// Named Query from POJO CLASS
+		Query q = s.getNamedQuery("SQL_GET_ALL_EMPLOYEE");
+		
+		
+		// Native Named Query 
+		// q = s.createSQLQuery("select * from Employee").addEntity(Employee.class);
+		empList = q.list();
+		System.out.println("===============List Of Employee================");
+		for (Employee employee : empList) {
+			System.out.println(employee);
+			System.out.println("==========================================");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		// Named Query from namedQuery.hbm.xml
+		q = s.getNamedQuery("HQL_GET_EMPLOYEE_BY_ID");
+		q.setInteger("empno", 2);
+		Employee e = (Employee)q.uniqueResult();
+		System.out.println(e.toString());
+		
+		
+	}
+}

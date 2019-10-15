@@ -7,10 +7,13 @@ import org.hibernate.annotations.NamedQuery;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.NamedNativeQueries;
+import javax.persistence.NamedNativeQuery;
 
 @Entity 
 @Table (name="Employee")
 @NamedQueries({@NamedQuery(name="HQL_GET_ALL_EMPLOYEE",query = "from Employee")})
+@NamedNativeQueries({@NamedNativeQuery(name="SQL_GET_ALL_EMPLOYEE",query = "select empno,dept,name,desig,basic from Employee")})
 public class Employee {
 	
 	

@@ -1,0 +1,13 @@
+
+€squid:UselessImportCheck":Remove this unused import 'org.hibernate.criterion.Order'.(ΉώΑλωÿÿÿÿ8—Ωνά-HύRMINORZ
+CODE_SMELL
+‘squid:S1488&"_Immediately return this expression instead of assigning it to the temporary variable "empList".(›ξΞΩÿÿÿÿÿHζRMINORZ
+CODE_SMELL
+…squid:UselessImportCheck"?Remove this unused import 'org.hibernate.criterion.Projection'.(™ήΕύÿÿÿÿ8—Ωνά-H€RMINORZ
+CODE_SMELL
+ysquid:UselessImportCheck"3Remove this unused import 'org.hibernate.Criteria'.(φΟ¨ÿÿÿÿÿ8—Ωνά-HώRMINORZ
+CODE_SMELL
+squid:UselessImportCheck"@Remove this unused import 'org.hibernate.criterion.Projections'.(’‘±®8—Ωνά-HRMINORZ
+CODE_SMELL
+‚squid:UselessImportCheck"ARemove this unused import 'org.hibernate.criterion.Restrictions'.(µΎ‘8—Ωνά-HÿRMINORZ
+CODE_SMELL

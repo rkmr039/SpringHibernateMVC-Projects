@@ -44,7 +44,7 @@ public class EmployeeCrud {
 		Query q = s.createQuery("from Employee where empno = "+empno);
 		List<Employee> lstEmployee = q.list();
 		Employee e = null;
-		if(lstEmployee.size() != 0) {
+		if(lstEmployee.isEmpty()) {
 			e = lstEmployee.get(0);
 		}
 		return e;
@@ -79,44 +79,5 @@ public class EmployeeCrud {
 		return "***DELETED***";
 	}
 	
-	public static void main(String[] args) {
-		/*List<Employee> empList= new EmployeeCrud().showEmploy();
-		for (Employee employee : empList) {
-			System.out.println(employee);
-		}*/
-		
-		SessionFactory sf = HibernateUtil.getConnection();
-		Session session = sf.openSession();
-		Query q = session.createQuery("from Employee");
-		
-		// q.setFirstResult(2);
-		// q.setMaxResults(3);
-		// List<Employee> empList = q.list();
-		
-		
-		Criteria criteria = session.createCriteria(Employee.class);
-		criteria.add(Restrictions.gt("basic", 45000));
-	    criteria.addOrder(Order.asc("basic"));
-	    
-	 
-		List<Employee> empList = criteria.list();
-		
-		for (Employee employee : empList) {
-			System.out.println(employee.toString());
-		}
-		
-		Projection p = Projections.property("desig");
-		criteria.setProjection(p);
-		List<String> result = criteria.list();
-		
-		for (String string : result) {
-			System.out.println(string);
-		}
-		
-		q = session.getNamedQuery("HQL_GET_ALL_EMPLOYEE");
-		empList = q.list();
-		for (Employee employee : empList) {
-			System.out.println(employee.toString());
-		}
-	}
+	
 }

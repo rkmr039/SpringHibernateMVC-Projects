@@ -1,0 +1,7 @@
+
+…squid:CallToDeprecatedMethod";Remove this use of "buildSessionFactory"; it is deprecated.(é€ğÿÿÿÿÿ8áØ®îÜ-HÛRMINORZ
+CODE_SMELL
+lsquid:S1118":Add a private constructor to hide the implicit public one.(‡ŒïøşÿÿÿÿH¥RMAJORZ
+CODE_SMELL
+‰squid:CallToDeprecatedMethod	"?Remove this use of "AnnotationConfiguration"; it is deprecated.(‚™ñ“üÿÿÿÿ8áØ®îÜ-HÚRMINORZ
+CODE_SMELL
