@@ -58,9 +58,7 @@
 	%>
 	<a href="/displayAll/Page/<%=i%>"> <%=i + 1%></a> &nbsp;&nbsp;
 
-	<%
-			}}
-	%>
+	<%}}%>
 	
 	<a href="/">Home</a>
 	<br>
