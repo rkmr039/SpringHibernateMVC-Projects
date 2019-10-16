@@ -1,0 +1,35 @@
+
+j
+squid:S106)"9Replace this use of System.out or System.err by a logger.(Û¼¤¹ıÿÿÿÿHØRMAJORZ
+CODE_SMELL
+j
+squid:S1060"9Replace this use of System.out or System.err by a logger.(œÛËüÿÿÿÿHÛRMAJORZ
+CODE_SMELL
+~squid:CommentedOutCodeLine""<This block of commented-out lines of code should be removed.(Ô²¨k8±çúÜ-HçRMAJORZ
+CODE_SMELL
+j
+squid:S1061"9Replace this use of System.out or System.err by a logger.(¾®¥—øÿÿÿÿHÜRMAJORZ
+CODE_SMELL
+‰squid:S1450"\Remove the "retrieveLogic" field and declare it as a local variable in the relevant methods.(µ±– HÖRMINORZ
+CODE_SMELL
+j
+squid:S106'"9Replace this use of System.out or System.err by a logger.(Üâ†¿ûÿÿÿÿH×RMAJORZ
+CODE_SMELL
+j
+squid:S1064"9Replace this use of System.out or System.err by a logger.(ıÁ‹ûÿÿÿÿHßRMAJORZ
+CODE_SMELL
+e
+squid:S1062"9Replace this use of System.out or System.err by a logger.(ªéÛHİRMAJORZ
+CODE_SMELL
+e
+squid:S1063"9Replace this use of System.out or System.err by a logger.( ”®ƒHŞRMAJORZ
+CODE_SMELL
+j
+squid:S106,"9Replace this use of System.out or System.err by a logger.(¬î—ÉûÿÿÿÿHÚRMAJORZ
+CODE_SMELL
+j
+squid:S1064"9Replace this use of System.out or System.err by a logger.(ıÁ‹ûÿÿÿÿHàRMAJORZ
+CODE_SMELL
+j
+squid:S106*"9Replace this use of System.out or System.err by a logger.(ÿÁŒøÿÿÿÿHÙRMAJORZ
+CODE_SMELL
