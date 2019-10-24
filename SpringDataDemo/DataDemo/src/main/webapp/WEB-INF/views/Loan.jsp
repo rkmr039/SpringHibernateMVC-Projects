@@ -14,10 +14,9 @@
 	<form method="post" action="show" modelAttribute="user">
 		<center>
 			Customer Name: <input type="text" name="customerName" /> <br /> <br />
-			Loan Amount: <input type="text" name="loanAmount" /> <br /> <br />
 			Property Type:
 			 <select name="propertyType">
-			 	<option value="select">Select Type</option>
+			 	<option value="select">Select Type</option>                                         
 				<option value="newProperty">New Property</option>
 				<option value="existingProperty">Existing Property</option>
 				<option value="existingWithReFinance">Existing With Re-Finance</option>
@@ -29,12 +28,16 @@
 				<option value="land">Land</option>
 				<option value="house">House</option>
 			</select><br /> <br /> 
-			Weight:
-			 <input type="text" name="weight" /> <br />
 			<br />
 			 Credit Score: <input type="text" name="creditscore" /> <br />
 			<br /> 
 			PAN: <input type="text" name="pan" /> <br /> <br />
+			Legal Residence:
+			 <select name="residence">
+			 	<option value="select">Select Type</option>
+			 	<option value="indian">Indian?</option>
+				<option value="other">Existing With Re-Finance</option>
+			</select><br /> <br /> 
 			<input type="submit" value="Apply" />
 		</center>
 	</form>

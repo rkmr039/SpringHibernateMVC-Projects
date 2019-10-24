@@ -14,7 +14,9 @@
 		      
 			<tr>
 				<th>Name</th>
-				<td><input type="text" name="name"></td>
+				<td><input type="text
+				.
+				" name="name"></td>
 			</tr>
 			<tr>
 				<th>HouseNo</th>
